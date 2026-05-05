@@ -195,10 +195,3 @@ footer {
   <p>📧 elsa.batiment@gmail.com</p>
   <p>📍 Mulhouse</p>
 </section>
-
-<footer>
-  © ELSA BAT
-</footer>
-
-</body>
-</html>
