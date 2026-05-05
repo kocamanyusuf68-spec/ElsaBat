@@ -48,6 +48,7 @@ nav a {
 
 .hero-text span {
   color:#C9A23F;
+  font-weight:bold;
 }
 
 .hero-img {
@@ -59,6 +60,7 @@ nav a {
   border-radius:10px;
 }
 
+/* BUTTON */
 .btn {
   background:#1E5EFF;
   color:white;
@@ -85,6 +87,26 @@ nav a {
   background:white;
   padding:20px;
   border-radius:10px;
+  transition:0.3s;
+}
+
+.card:hover {
+  transform:translateY(-5px);
+}
+
+/* RESPONSIVE */
+@media(max-width:900px){
+  .hero {
+    flex-direction:column;
+  }
+
+  .hero-text, .hero-img {
+    width:100%;
+  }
+
+  .grid {
+    grid-template-columns:1fr 1fr;
+  }
 }
 </style>
 </head>
@@ -104,14 +126,14 @@ nav a {
   <div class="hero-text">
     <h1>ELSA BAT</h1>
     <span>PLÂTRERIE - RÉNOVATION</span>
-    <p>Travaux intérieurs • Clé en main • Certifié RGE</p>
+    <p>Travaux intérieurs • Clé en main • Certifié RGE Qualibat</p>
 
     <ul>
-      <li>Plâtrerie</li>
-      <li>Démolition</li>
-      <li>Isolation</li>
-      <li>Rénovation</li>
-      <li>Peinture</li>
+      <li>Plâtrerie & aménagement intérieur</li>
+      <li>Démolition intérieure</li>
+      <li>Isolation thermique (RGE)</li>
+      <li>Rénovation complète</li>
+      <li>Peinture & finitions</li>
     </ul>
 
     <a href="#" class="btn">Demander un devis</a>
